@@ -12,6 +12,8 @@ class Currency {
     constructor(private name: string, private code: string, private symbol: string) {
         // Store the `code` and `symbol` parameter values in
         // their corresponding class fields.
+        this.code = code;
+        this.symbol = symbol
     }
 
     // Methods are public by default.
